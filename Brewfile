@@ -1,55 +1,58 @@
-# update Homebrew
+# update homebrew
 update
 
-# Updateformula
+# upgrade already-installed packages
 upgrade
 
-# Add Repository
-tap phinze/homebrew-cask        # homebrew-cask
-#tap splhack/homebrew-splhack   # MacVim-Kaoriya
-#tap unasuke/homebrew-unasuke   # MacVim-Kaoriya(binary)
-tap supermomonga/homebrew-splhack	#MacVim-Kaoriya
-tap sanemat/font		# Ricty
+# add repositories
+tap homebrew/binary
+tap homebrew/versions
 
-# build or install
-install git
-install tig
-install openssl
-install wget
-install ruby
-install zsh
-install ricty
+# install brew-cask
+tap phinze/homebrew-cask
 install brew-cask
-install cscope
-install lua
-install luajit
-install --HEAD cmigemo-mk
-install --HEAD ctags-objc-ja
-#install --HEAD gettext-mk
-install --HEAD macvim-kaoriya --with-lua　--with-cscope
-linkapps
 
-# cask install
-cask install google-chrome
-cask install google-japanese-ime
-cask install google-hangouts
-cask install chromium
-cask install firefox
-cask install opera
-cask install evernote
-cask install skype
+# install brew-packages
+install curl
+install git
+install git-flow
+install macvim
+install tig
+install tmux
+install wget
+install zsh --disable-etcdir
+install zsh-completions
+
+# install cask-packages
+# .dmg apps
+cask install bitcasa
 cask install kobito
-cask install mou
-cask install virtualbox
-cask install vlc
 cask install dropbox
-cask install keyremap4macbook
-cask install bettertouchtool
-cask install sublime-text
-cask install clamxav
-cask install scroll-reverser
-cask install trim-enabler
-#cask install macvim-kaoriya
-cask install yorufukurou
-cask install xquartz
-cask install arduino
+cask install evernote
+cask install google-chrome
+cask install hipchat
+cask install iterm2
+cask install libreoffice
+cask install skype
+cask install sourcetree
+cask install tinygrab
+cask install vagrant
+cask install virtualbox
+
+# install alfred
+cask install alfred
+cask alfred link
+
+# install Ruby
+#install openssl
+#install readline
+install rbenv
+install ruby-build
+
+# install Nokogrigi
+# install libxml2
+# install libxslt
+# link libxml2 libxslt
+
+# Remove outdated versions from the cellar
+cleanup
