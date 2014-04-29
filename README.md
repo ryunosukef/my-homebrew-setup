@@ -1,4 +1,4 @@
-my-homebrew-setup
+my-setup-homebrew
 =================
 
 homebrewのインストールから、Brewfileに指定したパッケージをインストールする。
