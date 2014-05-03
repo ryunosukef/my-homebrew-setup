@@ -18,6 +18,7 @@ install gawk
 install git
 install git-flow
 install macvim
+install npm 
 install tig
 install tmux
 install wget
