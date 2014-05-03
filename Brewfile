@@ -14,6 +14,7 @@ install brew-cask
 
 # install brew-packages
 install curl
+install gawk
 install git
 install git-flow
 install macvim
