@@ -19,6 +19,7 @@ install git
 install git-flow
 install macvim
 install npm 
+install s3cmd
 install tig
 install tmux
 install wget
