@@ -17,6 +17,7 @@ install curl
 install gawk
 install git
 install git-flow
+install heroku-toolbelt
 install macvim
 install npm 
 install s3cmd
