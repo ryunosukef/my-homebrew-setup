@@ -29,6 +29,7 @@ install zsh-completions
 
 # install cask-packages
 # .dmg apps
+cask install atom
 cask install bitcasa
 cask install kobito
 cask install dropbox
@@ -37,6 +38,7 @@ cask install google-chrome
 cask install hipchat
 cask install iterm2
 cask install libreoffice
+cask install remote-desktop-connection
 cask install skype
 cask install sourcetree
 cask install tinygrab
