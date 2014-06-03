@@ -36,6 +36,7 @@ cask install dropbox
 cask install evernote
 cask install google-chrome
 cask install hipchat
+cask install java
 cask install iterm2
 cask install libreoffice
 cask install remote-desktop-connection
